@@ -15,9 +15,7 @@ export default function Update() {
 
   const handleClick = (e) => {
     e.preventDefault();
-    // without API
-    // dispatch(update({ name, email }));
-    // with API
+
     dispatch(update({ name, email }));
   };
 
